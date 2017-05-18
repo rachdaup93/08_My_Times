@@ -65,3 +65,52 @@ div {
     flex-direction: column;
     justify-content: flex-start;
 }
+
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+#main-story{
+  font-size: 40px;    
+}
+.story p{
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.story{
+    height: 300px;
+}
+
+#image-story{
+  font-size: 30px;    
+}
+
+#tuna{
+    background-image: url(../images/img-story-main.png);
+    display: flex;
+    align-items: flex-start;
+    background-size: auto 100%;
+}
+#earth{
+    background-image: url(../images/img-story-2.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#camera{
+    background-image: url(../images/img-story-3.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#cat{
+    background-image: url(../images/img-story-1.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
